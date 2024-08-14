@@ -31,7 +31,6 @@
     <button type="button" @click="signOut">登出</button>
     <p>{{ signOutMsg }}</p>
   </div>
-  {{ LoginStatus }}
   <hr />
 
   <div v-if="LoginStatus">
